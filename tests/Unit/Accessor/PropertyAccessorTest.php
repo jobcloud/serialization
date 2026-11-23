@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Jobcloud\Tests\Serialization\Unit\Accessor;
 
+use Doctrine\Persistence\Proxy;
 use Jobcloud\Serialization\Accessor\PropertyAccessor;
 use Jobcloud\Serialization\SerializerLogicException;
-use Doctrine\Persistence\Proxy;
 use PHPUnit\Framework\TestCase;
 
 /**
