@@ -6,11 +6,11 @@ namespace Jobcloud\Tests\Serialization\Unit\Normalizer;
 
 use Chubbyphp\Mock\MockMethod\WithReturn;
 use Chubbyphp\Mock\MockObjectBuilder;
+use Doctrine\Persistence\Proxy;
 use Jobcloud\Serialization\Mapping\NormalizationObjectMappingInterface;
 use Jobcloud\Serialization\Normalizer\NormalizerObjectMappingRegistry;
 use Jobcloud\Serialization\SerializerLogicException;
 use Jobcloud\Tests\Serialization\Resources\Model\AbstractManyModel;
-use Doctrine\Persistence\Proxy;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 

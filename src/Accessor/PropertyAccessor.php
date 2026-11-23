@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Jobcloud\Serialization\Accessor;
 
-use Jobcloud\Serialization\SerializerLogicException;
 use Doctrine\Persistence\Proxy;
+use Jobcloud\Serialization\SerializerLogicException;
 
 final class PropertyAccessor implements AccessorInterface
 {
