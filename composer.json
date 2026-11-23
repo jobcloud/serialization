@@ -22,11 +22,11 @@
     },
     "require-dev": {
         "chubbyphp/chubbyphp-container": "^2.2",
-        "chubbyphp/chubbyphp-dev-helper": "dev-master",
         "chubbyphp/chubbyphp-laminas-config-factory": "^1.4",
         "chubbyphp/chubbyphp-mock": "^2.0",
         "doctrine/collections": "^2.2.2",
         "doctrine/persistence": "^4.0",
+        "friendsofphp/php-cs-fixer": "^3.95",
         "infection/infection": "^0.29.12",
         "php-coveralls/php-coveralls": "^2.7.0",
         "phpstan/extension-installer": "^1.4.3",
